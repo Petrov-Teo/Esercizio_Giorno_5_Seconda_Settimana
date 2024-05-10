@@ -27,3 +27,15 @@ html {
 .amenu {
   color: white;
 }
+section {
+  padding: 30px;
+}
+.bannerArancione {
+  color: white;
+  text-align: center;
+  background-color: #f56600;
+  padding: 10px;
+}
+.pShopAll {
+  font-style: oblique;
+}
