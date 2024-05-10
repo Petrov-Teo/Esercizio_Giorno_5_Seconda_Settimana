@@ -1,0 +1,29 @@
+/* Your styles here */
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: auto;
+  background-color: #e9edee;
+}
+
+.areaLogo {
+  background-color: rgb(34, 47, 63);
+  padding: 20px;
+}
+.logo {
+  width: 150px;
+  padding: 2;
+}
+.barraNavigazione {
+  margin: auto;
+  background-color: #354758;
+  padding: 10px;
+  color: white;
+}
+.menu {
+  color: white;
+  padding: 10px;
+  display: inline;
+}
+.amenu {
+  color: white;
+}
