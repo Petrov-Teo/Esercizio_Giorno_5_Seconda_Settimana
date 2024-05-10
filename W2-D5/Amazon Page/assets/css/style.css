@@ -5,6 +5,10 @@ html {
   background-color: #e9edee;
 }
 
+bady {
+  margin: 30 px;
+}
+
 .areaLogo {
   background-color: rgb(34, 47, 63);
   padding: 20px;
@@ -37,5 +41,18 @@ section {
   padding: 10px;
 }
 .pShopAll {
+  font: 1.1em;
   font-style: oblique;
+}
+.divHolidayG {
+  margin: 0px 30px;
+  text-align: center;
+  background-image: url(../images/bg-image.png);
+  background-repeat: round;
+  background: position 50px;
+}
+.h3Holydays {
+  color: white;
+  font: 1.8em sans-serif;
+  padding: 20px;
 }
