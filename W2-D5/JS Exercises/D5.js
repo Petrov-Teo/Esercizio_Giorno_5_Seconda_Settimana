@@ -60,20 +60,30 @@ const cars = [
   },
 ];
 
+// METODO UNO
+cars.licensPlate = "1234";
+console.log(cars);
+
+//NETODO DUE
 for (let index = 0; index < cars.length; index++) {
-  const element = cars[index]
-  ;
-  
+  const element = cars[index];
+  element.licensPlate = "";
+  console.log(element);
 }
 /* ESERCIZIO 6
     Scrivi del codice per aggiungere un nuovo oggetto in ultima posizione nell'array "cars", rispettando la struttura degli altri elementi.
     Successivamente, rimuovi l'ultimo elemento della proprietà "trims" da ogni auto.
 */
 
+cars.nuovoOggetto = {};
+console.log(cars);
+
 /* ESERCIZIO 7
     Scrivi del codice per salvare il primo elemento della proprietà "trims" di ogni auto nel nuovo array "justTrims", sotto definito.
 */
 const justTrims = [];
+
+console.log(justTrims);
 
 /* ESERCIZIO 8
     Cicla l'array "cars" e costruisci un if/else statament per mostrare due diversi messaggi in console. Se la prima lettera della proprietà
@@ -83,10 +93,15 @@ const justTrims = [];
 /* ESERCIZIO 9
     Utilizza un ciclo while per stampare in console i valori del seguente array numerico fino al raggiungimento del numero 32.
 */
-const numericArray = [
+let numericArray = [
   6, 90, 45, 75, 84, 98, 35, 74, 31, 2, 8, 23, 100, 32, 66,
   313, 321, 105,
 ];
+
+while (numericArray < 33) {
+  numericArray++;
+  console.log(numericArray);
+}
 
 /* ESERCIZIO 10
     Partendo dall'array fornito e utilizzando un costrutto switch, genera un nuovo array composto dalle posizioni di ogni carattere all'interno
@@ -95,17 +110,27 @@ const numericArray = [
 */
 const charactersArray = ["g", "n", "u", "z", "d"];
 
-const cambialettere = function name() {
-  
-  switch () {
-  case g:6
-    
+let alfabetoNumerico = ["n"];
+if (condition) {
+}
+switch (alfabetoNumerico) {
+  case "g":
+    console.log(7);
     break;
-
+  case "n":
+    console.log(7);
+    break;
+  case "u":
+    console.log(19);
+    break;
+  case "z":
+    console.log(21);
+    break;
+  case "d":
+    console.log(4);
+    break;
   default:
     break;
 }
-  
-}
 
-
+console.log(alfabetoNumerico);
