@@ -32,7 +32,7 @@ bady {
   color: white;
 }
 section {
-  padding: 30px;
+  margin: 30px;
 }
 .bannerArancione {
   color: white;
@@ -56,3 +56,25 @@ section {
   font: 1.8em sans-serif;
   padding: 20px;
 }
+
+.pBeaGo {
+  color: white;
+}
+
+.cardsImg {
+  display: inline-block;
+  background-color: white;
+  box-shadow: 10px 10px 5px #dedede, -10px -10px 5px #dedede,
+    10px -10px 5px #dedede, -10px 10px 5px #dedede;
+}
+
+ .cardsImgPos {
+  width: 350px;
+  height: 350px;
+  margin: 10px;
+  border-radius: 20px; */
+}
+.scolor {
+  margin: 30px;
+  background-color: white;
+
