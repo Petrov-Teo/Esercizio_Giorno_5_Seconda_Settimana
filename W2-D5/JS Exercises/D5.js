@@ -60,6 +60,11 @@ const cars = [
   },
 ];
 
+for (let index = 0; index < cars.length; index++) {
+  const element = cars[index]
+  ;
+  
+}
 /* ESERCIZIO 6
     Scrivi del codice per aggiungere un nuovo oggetto in ultima posizione nell'array "cars", rispettando la struttura degli altri elementi.
     Successivamente, rimuovi l'ultimo elemento della proprietà "trims" da ogni auto.
@@ -89,3 +94,18 @@ const numericArray = [
     es. [f, b, e] --> [6, 2, 5]
 */
 const charactersArray = ["g", "n", "u", "z", "d"];
+
+const cambialettere = function name() {
+  
+  switch () {
+  case g:6
+    
+    break;
+
+  default:
+    break;
+}
+  
+}
+
+
