@@ -33,6 +33,10 @@ bady {
   text-decoration: none;
   color: white;
 }
+.acoll {
+  text-decoration: none;
+  color: #145a70;
+}
 section {
   margin: 30px;
 }
@@ -82,13 +86,31 @@ section {
 }
 
 .h6PerfectGift {
-  text-align: left;
+  margin-left: 10px;
   display: inline;
   font-size: 1.1em;
 }
 .pShop {
+  margin-left: 10px;
   display: inline;
   color: #145a70;
   font-weight: bold;
-  font: 0.9em;
+}
+
+.dVision {
+  text-align: center;
+}
+.mVisore {
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+.dFooter {
+  text-align: center;
+}
+
+.imgLogoChiusura {
+  margin: 3%;
+  width: 12%;
 }
